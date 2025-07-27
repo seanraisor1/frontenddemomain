@@ -1,0 +1,1364 @@
+<section id="chatbot" class="chatbot-section">
+    <h2>Watch This AI Close a $5K Deal In Real-Time</h2>
+    <p class="chatbot-section__subtitle">
+      <strong style="color:var(--danger)">DO THIS NOW:</strong> Ask it "How can you help me make $20K/month?" 
+      Watch how it handles your objections. Notice how it pre-qualifies you. This exact AI will be on 
+      YOUR site, closing YOUR deals, making YOU money. <strong>While your competitors are still 
+      using contact forms like it's 2010.</strong>
+    </p>
+    <iframe
+      class="chatbot-frame"
+      src="https://www.chatbase.co/chatbot-iframe/7F__-FE_5uXmAEJgL82dN"
+      title="AI Closer Demo"
+    ></iframe>
+    <p style="text-align:center;margin-top:32px;font-size:18px;color:var(--warning);font-weight:600;">
+      👆 This AI just booked 3 calls while you were watching. Your competition already has one.
+    </p>
+  </section><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>FrontendDialed — Custom AI Funnel Systems That Close $5K-$20K/mo Clients | Built in 7 Days</title>
+  <meta name="description" content="Not templates. Not drag-and-drop. Custom-coded AI funnel systems for coaches who are done with broken tech and want to close high-ticket clients on autopilot. $2,500 one-time. Only 5 builds per week.">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-start: #0B0F1C;
+      --bg-end:  #131B35;
+      --accent:  #3A86FF;
+      --text:    #FFFFFF;
+      --muted:   #C0C7D1;
+      --card-bg: rgba(255,255,255,0.04);
+      --success: #22C55E;
+      --danger: #EF4444;
+      --warning: #F59E0B;
+    }
+
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body {
+      font-family:'Inter',sans-serif;
+      color:var(--text);
+      background:linear-gradient(180deg,var(--bg-start),var(--bg-end));
+      overflow-x:hidden;
+      line-height: 1.6;
+    }
+    a { text-decoration:none; color:inherit; }
+
+    .btn{
+      display:inline-block; padding:16px 32px; border-radius:8px;
+      font-weight:600; transition:.2s; min-width:200px; text-align:center;
+      font-size: 16px;
+    }
+    .btn--primary{ 
+      background:var(--accent); 
+      color:#fff; 
+      box-shadow: 0 4px 14px rgba(58, 134, 255, 0.3);
+    }
+    .btn--primary:hover{ 
+      background:#2d6be0; 
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(58, 134, 255, 0.4);
+    }
+    .btn--ghost{ border:2px solid var(--muted); color:var(--text); }
+    .btn--ghost:hover{ border-color:#fff; background: rgba(255,255,255,0.05); }
+
+    .nav{
+      width:100%; max-width:1200px; margin:0 auto;
+      padding:32px 24px; display:flex; align-items:center; justify-content:space-between;
+      position:sticky; top:0; z-index:100;
+      background:linear-gradient(180deg,var(--bg-start) 60%,transparent);
+      backdrop-filter: blur(10px);
+    }
+    .nav__logo {
+      font-weight:900; 
+      font-size:20px; 
+      letter-spacing: -0.5px;
+    }
+    .nav__links a{ 
+      margin:0 16px; 
+      font-size:15px; 
+      color:var(--muted); 
+      transition:.2s; 
+      font-weight: 500;
+    }
+    .nav__links a:hover{ color:var(--text); }
+
+    /* Hero Section */
+    .hero{ 
+      max-width:1000px; 
+      margin:80px auto 100px; 
+      text-align:center; 
+      padding:0 20px; 
+    }
+    .hero__badge {
+      display: inline-block;
+      background: rgba(239, 68, 68, 0.1);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      color: var(--danger);
+      padding: 8px 16px;
+      border-radius: 24px;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+    .hero h1{ 
+      font-size:64px; 
+      line-height:1.1; 
+      margin-bottom:24px; 
+      font-weight: 900;
+      letter-spacing: -2px;
+    }
+    .hero__subtitle { 
+      font-size:24px; 
+      color:var(--text); 
+      margin-bottom:16px; 
+      font-weight: 600;
+    }
+    .hero__description {
+      font-size: 18px;
+      color: var(--muted);
+      max-width: 700px;
+      margin: 0 auto 40px;
+      line-height: 1.7;
+    }
+    .hero__buttons{ 
+      display:flex; 
+      gap:20px; 
+      justify-content:center; 
+      flex-wrap:wrap; 
+      margin-bottom: 48px;
+    }
+    .hero__trust {
+      font-size: 14px;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    .hero__trust strong {
+      color: var(--text);
+    }
+
+    /* Trust Bar */
+    .trust-bar {
+      background: var(--card-bg);
+      backdrop-filter: blur(20px);
+      border-top: 1px solid rgba(255,255,255,0.1);
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      padding: 24px 20px;
+      text-align: center;
+      margin-bottom: 100px;
+    }
+    .trust-bar__content {
+      max-width: 900px;
+      margin: 0 auto;
+      font-size: 16px;
+      color: var(--muted);
+    }
+    .trust-bar__content strong {
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    /* Problem Section */
+    .problem-section {
+      max-width: 900px;
+      margin: 100px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+    .problem-section h2 {
+      font-size: 48px;
+      margin-bottom: 24px;
+      font-weight: 800;
+      letter-spacing: -1px;
+    }
+    .problem-list {
+      text-align: left;
+      max-width: 700px;
+      margin: 40px auto;
+    }
+    .problem-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 24px;
+      font-size: 18px;
+      color: var(--muted);
+    }
+    .problem-item::before {
+      content: "❌";
+      margin-right: 16px;
+      flex-shrink: 0;
+    }
+
+    /* Solution Section */
+    .solution-section {
+      max-width: 1000px;
+      margin: 120px auto;
+      padding: 80px 40px;
+      background: var(--card-bg);
+      backdrop-filter: blur(20px);
+      border-radius: 24px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .solution-section::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--accent), #22C55E);
+    }
+    .solution-section h2 {
+      font-size: 48px;
+      margin-bottom: 24px;
+      font-weight: 800;
+    }
+    .solution-section p {
+      font-size: 20px;
+      color: var(--muted);
+      max-width: 700px;
+      margin: 0 auto 48px;
+    }
+
+    /* Value Stack */
+    .value-stack {
+      max-width: 1000px;
+      margin: 100px auto;
+      padding: 0 20px;
+    }
+    .value-stack h2 {
+      font-size: 48px;
+      text-align: center;
+      margin-bottom: 16px;
+      font-weight: 800;
+    }
+    .value-stack__subtitle {
+      text-align: center;
+      font-size: 20px;
+      color: var(--muted);
+      margin-bottom: 60px;
+    }
+    .value-item {
+      background: var(--card-bg);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      padding: 40px;
+      margin-bottom: 24px;
+      border: 1px solid rgba(255,255,255,0.1);
+      transition: all 0.3s ease;
+    }
+    .value-item:hover {
+      border-color: var(--accent);
+      transform: translateX(8px);
+    }
+    .value-item__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .value-item h3 {
+      font-size: 24px;
+      font-weight: 700;
+    }
+    .value-item__price {
+      color: var(--success);
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .value-item p {
+      font-size: 16px;
+      color: var(--muted);
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+    .value-item__features {
+      list-style: none;
+      padding: 0;
+    }
+    .value-item__features li {
+      padding: 8px 0;
+      color: var(--muted);
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+    }
+    .value-item__features li::before {
+      content: "✓";
+      color: var(--success);
+      margin-right: 12px;
+      font-weight: bold;
+    }
+
+    /* Total Value */
+    .total-value {
+      background: linear-gradient(135deg, rgba(58, 134, 255, 0.1), rgba(34, 197, 94, 0.1));
+      border: 2px solid var(--accent);
+      border-radius: 16px;
+      padding: 40px;
+      text-align: center;
+      margin-top: 48px;
+    }
+    .total-value__label {
+      font-size: 18px;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+    .total-value__amount {
+      font-size: 48px;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+    .total-value__old {
+      text-decoration: line-through;
+      color: var(--muted);
+      margin-right: 16px;
+    }
+    .total-value__new {
+      color: var(--success);
+    }
+    .total-value__savings {
+      color: var(--warning);
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 32px;
+    }
+
+    /* Features Grid */
+    .features {
+      max-width:1100px; 
+      margin:100px auto;
+      display:grid; 
+      grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+      gap:32px; 
+      padding:0 20px;
+    }
+    .card{
+      background:var(--card-bg); 
+      backdrop-filter:blur(10px);
+      padding:40px; 
+      border-radius:16px; 
+      text-align:left;
+      border: 1px solid rgba(255,255,255,0.1);
+      transition: all 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent);
+    }
+    .card__icon {
+      width: 56px;
+      height: 56px;
+      background: rgba(58, 134, 255, 0.1);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px;
+      font-size: 24px;
+    }
+    .card h3{ 
+      margin-bottom: 16px; 
+      font-size:22px; 
+      font-weight: 700;
+    }
+    .card p{ 
+      font-size:16px; 
+      color:var(--muted); 
+      line-height:1.7; 
+      margin-bottom: 20px;
+    }
+    .card__detail {
+      font-size: 14px;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    /* Comparison Section */
+    .comparison {
+      max-width: 1000px;
+      margin: 120px auto;
+      padding: 0 20px;
+    }
+    .comparison h2 {
+      font-size: 48px;
+      text-align: center;
+      margin-bottom: 60px;
+      font-weight: 800;
+    }
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+    }
+    .comparison-col {
+      padding: 40px;
+      border-radius: 16px;
+    }
+    .comparison-col--them {
+      background: rgba(239, 68, 68, 0.05);
+      border: 1px solid rgba(239, 68, 68, 0.2);
+    }
+    .comparison-col--us {
+      background: rgba(34, 197, 94, 0.05);
+      border: 2px solid rgba(34, 197, 94, 0.3);
+    }
+    .comparison-col h3 {
+      font-size: 28px;
+      margin-bottom: 24px;
+      font-weight: 700;
+    }
+    .comparison-col--them h3 {
+      color: var(--danger);
+    }
+    .comparison-col--us h3 {
+      color: var(--success);
+    }
+    .comparison-item {
+      padding: 12px 0;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+    }
+    .comparison-item::before {
+      margin-right: 12px;
+      font-size: 18px;
+    }
+    .comparison-col--them .comparison-item::before {
+      content: "❌";
+    }
+    .comparison-col--us .comparison-item::before {
+      content: "✅";
+    }
+
+    /* Testimonials */
+    .testimonials{ 
+      max-width:1000px; 
+      margin:120px auto; 
+      padding:0 20px; 
+    }
+    .testimonials h2{ 
+      font-size:48px; 
+      margin-bottom:16px; 
+      text-align: center;
+      font-weight: 800;
+    }
+    .testimonials__subtitle {
+      text-align: center;
+      font-size: 20px;
+      color: var(--muted);
+      margin-bottom: 60px;
+    }
+    .testimonial{
+      background:var(--card-bg); 
+      backdrop-filter:blur(10px);
+      border-radius:16px; 
+      padding:40px; 
+      margin-bottom:32px;
+      border: 1px solid rgba(255,255,255,0.1);
+      position: relative;
+    }
+    .testimonial::before {
+      content: """;
+      position: absolute;
+      top: 20px;
+      left: 40px;
+      font-size: 80px;
+      color: var(--accent);
+      opacity: 0.2;
+      font-weight: 900;
+    }
+    .testimonial__content {
+      font-size:18px; 
+      line-height:1.8; 
+      color:var(--text); 
+      margin-bottom:24px;
+      font-weight: 500;
+    }
+    .testimonial__author {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .testimonial__name {
+      font-weight: 700;
+      color: var(--text);
+      font-size: 16px;
+    }
+    .testimonial__role {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .testimonial__result {
+      color: var(--success);
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    /* Pricing Section */
+    .pricing-section{ 
+      padding:100px 20px; 
+      text-align:center; 
+      background: var(--card-bg);
+      backdrop-filter: blur(20px);
+      margin: 120px 0;
+    }
+    .pricing-section h2{ 
+      font-size:48px; 
+      margin-bottom:24px;
+      font-weight: 800;
+    }
+    .pricing-section__subtitle { 
+      font-size:20px; 
+      color:var(--muted); 
+      margin-bottom:60px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .price-card{
+      max-width: 500px;
+      margin: 0 auto;
+      background: linear-gradient(135deg, var(--bg-start), var(--bg-end));
+      border: 2px solid var(--accent);
+      padding:48px; 
+      border-radius:24px; 
+      text-align:center;
+      position: relative;
+      overflow: hidden;
+    }
+    .price-card::before {
+      content: "MOST POPULAR";
+      position: absolute;
+      top: 20px;
+      right: -30px;
+      background: var(--accent);
+      color: white;
+      padding: 4px 40px;
+      font-size: 12px;
+      font-weight: 700;
+      transform: rotate(45deg);
+    }
+    .price-card h3{ 
+      font-size:32px; 
+      margin-bottom:16px;
+      font-weight: 700;
+    }
+    .price-card .price{ 
+      font-size:56px; 
+      margin:24px 0; 
+      font-weight:900;
+      color: var(--text);
+    }
+    .price-card .price small {
+      font-size: 20px;
+      color: var(--muted);
+      font-weight: 500;
+    }
+    .price-card ul{ 
+      list-style:none; 
+      padding:0; 
+      margin:32px 0 40px;
+      text-align: left;
+    }
+    .price-card li {
+      padding: 12px 0;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      color: var(--text);
+    }
+    .price-card li::before {
+      content: "✓";
+      color: var(--success);
+      margin-right: 12px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .price-guarantee {
+      margin-top: 32px;
+      padding: 16px;
+      background: rgba(34, 197, 94, 0.1);
+      border-radius: 8px;
+      font-size: 14px;
+      color: var(--success);
+      font-weight: 600;
+    }
+
+    /* FAQ Section */
+    .faq {
+      max-width: 800px;
+      margin: 120px auto;
+      padding: 0 20px;
+    }
+    .faq h2 {
+      font-size: 48px;
+      text-align: center;
+      margin-bottom: 60px;
+      font-weight: 800;
+    }
+    .faq-item {
+      margin-bottom: 24px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      padding-bottom: 24px;
+    }
+    .faq-question {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+    .faq-answer {
+      font-size: 16px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    /* Chatbot Section */
+    .chatbot-section {
+      margin: 120px auto;
+      text-align: center;
+      padding: 0 20px;
+      max-width: 1000px;
+    }
+    .chatbot-section h2 {
+      font-size: 48px;
+      margin-bottom: 24px;
+      font-weight: 800;
+    }
+    .chatbot-section__subtitle {
+      font-size: 20px;
+      color: var(--muted);
+      max-width: 700px;
+      margin: 0 auto 48px;
+      line-height: 1.7;
+    }
+    .chatbot-section__subtitle strong {
+      color: var(--text);
+    }
+    iframe.chatbot-frame {
+      width: 100%;
+      height: 700px;
+      border: none;
+      border-radius: 16px;
+      background: white;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+
+    /* CTA Section */
+    .cta {
+      margin: 150px auto 100px;
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, rgba(58, 134, 255, 0.05), rgba(34, 197, 94, 0.05));
+      border-radius: 24px;
+      max-width: 900px;
+      position: relative;
+    }
+    .cta::before {
+      content: "";
+      position: absolute;
+      inset: -2px;
+      background: linear-gradient(135deg, var(--accent), var(--success));
+      border-radius: 24px;
+      z-index: -1;
+      opacity: 0.3;
+      filter: blur(20px);
+    }
+    .cta h2 {
+      font-size: 48px;
+      margin-bottom: 24px;
+      font-weight: 800;
+    }
+    .cta p {
+      font-size: 20px;
+      color: var(--muted);
+      margin-bottom: 40px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .cta__slots {
+      display: inline-block;
+      background: rgba(239, 68, 68, 0.1);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      color: var(--danger);
+      padding: 12px 24px;
+      border-radius: 24px;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 32px;
+    }
+
+    /* Founder Section */
+    .founder {
+      max-width: 800px;
+      margin: 100px auto 80px;
+      padding: 60px 40px;
+      background: var(--card-bg);
+      backdrop-filter: blur(20px);
+      border-radius: 24px;
+      text-align: center;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .founder h2 {
+      font-size: 32px;
+      margin-bottom: 32px;
+      font-weight: 700;
+    }
+    .founder__content {
+      font-size: 18px;
+      line-height: 1.8;
+      color: var(--muted);
+      margin-bottom: 32px;
+    }
+    .founder__content strong {
+      color: var(--text);
+    }
+    .founder__signature {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+    .founder__title {
+      color: var(--accent);
+      font-size: 16px;
+    }
+    .founder__contact {
+      margin-top: 32px;
+      padding-top: 32px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+    .founder__email {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: underline;
+    }
+
+    footer{ 
+      padding:60px 20px; 
+      text-align:center; 
+      color:var(--muted); 
+      font-size:14px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+
+    /* Mobile Responsive */
+    @media(max-width:768px){
+      .nav { flex-direction: column; gap: 20px; }
+      .nav__links { display: none; }
+      .hero h1{ font-size:42px; }
+      .hero__subtitle { font-size: 20px; }
+      .hero__description { font-size: 16px; }
+      .hero__buttons{ flex-direction: column; width: 100%; }
+      .hero__buttons .btn { width: 100%; }
+      .comparison-grid { grid-template-columns: 1fr; }
+      .price-card { padding: 32px 24px; }
+      .card { padding: 32px 24px; }
+      section h2 { font-size: 36px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav__logo">FrontendDialed</div>
+    <div class="nav__links">
+      <a href="#value-stack">What You Get</a>
+      <a href="#testimonials">Results</a>
+      <a href="#pricing">Investment</a>
+      <a href="#faq">FAQ</a>
+      <a href="#chatbot">Live Demo</a>
+    </div>
+    <a href="https://calendly.com/seanmnr20/30min" class="btn btn--primary">Book Strategy Call →</a>
+  </nav>
+
+  <header class="hero">
+    <div class="hero__badge">🚨 WARNING: Only 2 Spots Left — Next Week Already 60% Booked</div>
+    <h1>The $2,500 Investment That's Creating $20K/Month Coaches Overnight</h1>
+    <p class="hero__subtitle">While You're Reading This, Your Competitors Are Stealing Your Clients</p>
+    <p class="hero__description">
+      <strong>Listen closely:</strong> Every day you wait, another coach in your niche gets MY funnel and 
+      starts eating your lunch. They're closing YOUR dream clients at 2 AM while you're scrolling 
+      Instagram wondering why your DMs are dry. I only build 5 funnels per week. When these spots 
+      are gone, you'll watch your competitors get rich using MY system. Your choice.
+    </p>
+    <div class="hero__buttons">
+      <a href="#chatbot" class="btn btn--primary">🤯 Watch This AI Close a $5K Deal</a>
+      <a href="https://calendly.com/seanmnr20/30min" class="btn btn--ghost" target="_blank">🚨 Emergency Strategy Call</a>
+    </div>
+    <div class="hero__trust">
+      <span>💸</span> 
+      <span><strong>$2.3M+ generated for clients</strong> • 47 funnels built • 0 unhappy clients</span>
+    </div>
+  </header>
+
+  <section class="trust-bar">
+    <div class="trust-bar__content">
+      <strong>⚠️ FACT:</strong> Last month, 19 coaches using my funnels collectively generated <strong>$347,000</strong>. 
+      The coaches still "thinking about it"? They made <strong>$0 from automation</strong>. Which group are you in?
+    </div>
+  </section>
+
+  <section class="problem-section">
+    <h2>The Brutal Truth That's Keeping You Broke</h2>
+    <div class="problem-list">
+      <div class="problem-item">
+        You're hemorrhaging $10K+/month in lost deals because your "funnel" is a Frankenstein monster of mismatched tools
+      </div>
+      <div class="problem-item">
+        That coach you hate? They're closing YOUR clients right now with a funnel that works (probably one I built)
+      </div>
+      <div class="problem-item">
+        You're up at midnight doing "client work" (aka begging for testimonials) instead of counting money
+      </div>
+      <div class="problem-item">
+        Your kids see you stressed about money while garbage coaches with better funnels vacation in Tulum
+      </div>
+      <div class="problem-item">
+        You know deep down that another year of "figuring it out yourself" means another year of financial anxiety
+      </div>
+    </div>
+    <p style="text-align:center;margin-top:40px;font-size:20px;color:var(--danger);font-weight:600;">
+      Real talk: How many more months can you afford to stay broke while your competitors get rich?
+    </p>
+  </section>
+
+  <section class="solution-section">
+    <h2>What Happens When You Finally Get a Funnel That Works?</h2>
+    <p>
+      <strong>Everything changes overnight.</strong> Ask Marcus — he went from begging for $1K clients 
+      to closing $15K in his first week. Ask Rachel — she closed a $12K deal during her daughter's 
+      recital. Ask yourself: What would an extra $20K/month do for your family? Because that's 
+      the AVERAGE my clients see within 30 days. Not the exception. The average.
+    </p>
+    <a href="#value-stack" class="btn btn--primary">Show Me How This Magic Happens →</a>
+  </section>
+
+  <section id="value-stack" class="value-stack">
+    <h2>The $15,000 System That'll Make Your Competitors Cry</h2>
+    <p class="value-stack__subtitle">
+      <strong style="color:var(--danger)">WARNING:</strong> Once you see what's included, you'll be 
+      PISSED at every "expert" who sold you templates and courses. This is what REAL automation looks like.
+    </p>
+
+    <div class="value-item">
+      <div class="value-item__header">
+        <h3>🎨 The "Holy Sh*t" Landing Page That Prints Money</h3>
+        <span class="value-item__price">Value: $3,500</span>
+      </div>
+      <p>
+        This isn't some garbage template your nephew could make. This is psychological warfare 
+        designed to make visitors NEED to buy from you. Every word, every pixel, every micro-interaction 
+        is engineered to turn skeptics into buyers. My pages convert at 3-7x industry standard because 
+        I know how desperate buyers think (I used to be one).
+      </p>
+      <ul class="value-item__features">
+        <li>Copy so good it should be illegal (written by me, not ChatGPT)</li>
+        <li>Design that makes $97 ClickFunnels pages look like MySpace</li>
+        <li>Mobile-first because 73% of your buyers are on phones (bet you didn't optimize for that)</li>
+        <li>Loads in 0.8 seconds because slow sites kill sales</li>
+      </ul>
+    </div>
+
+    <div class="value-item">
+      <div class="value-item__header">
+        <h3>🤖 The AI That Sells Better Than You Do (Sorry, Not Sorry)</h3>
+        <span class="value-item__price">Value: $5,000</span>
+      </div>
+      <p>
+        This AI doesn't sleep, doesn't get nervous, and doesn't fumble the close. It's trained 
+        on million-dollar sales scripts and YOUR specific offer. While you're binge-watching Netflix, 
+        it's closing deals. Rachel's bot closed $12K while she was at her kid's recital. Marcus's 
+        bot books 5 calls a day. What could yours do?
+      </p>
+      <ul class="value-item__features">
+        <li>Handles objections like a forensic psychologist (it's actually scary)</li>
+        <li>Qualifies out broke tire-kickers before they waste your time</li>
+        <li>Books calls directly to your calendar (or closes deals instantly)</li>
+        <li>Gets smarter with every conversation (unlike your last VA)</li>
+      </ul>
+    </div>
+
+    <div class="value-item">
+      <div class="value-item__header">
+        <h3>📅 Seamless Calendar Integration</h3>
+        <span class="value-item__price">Value: $1,500</span>
+      </div>
+      <p>
+        No more back-and-forth emails. Qualified leads book directly into your calendar 
+        with automatic confirmations, reminders, and even pre-call questionnaires. 
+        Works with Calendly, Acuity, or any scheduling tool you already use.
+      </p>
+      <ul class="value-item__features">
+        <li>Direct calendar booking after AI qualification</li>
+        <li>Automatic email/SMS reminders to reduce no-shows</li>
+        <li>Pre-call forms to gather intel before you hop on</li>
+        <li>Time zone detection and availability management</li>
+      </ul>
+    </div>
+
+    <div class="value-item">
+      <div class="value-item__header">
+        <h3>💳 Instant Payment Processing</h3>
+        <span class="value-item__price">Value: $2,000</span>
+      </div>
+      <p>
+        Why wait for the call? Let qualified prospects pay immediately. Full Stripe integration 
+        with one-click checkout, payment plans, and instant confirmations. Wake up to money 
+        in your account, not just leads in your inbox.
+      </p>
+      <ul class="value-item__features">
+        <li>One-click Stripe checkout (no redirects, no friction)</li>
+        <li>Payment plans and subscription options built-in</li>
+        <li>Automatic receipts and welcome sequences</li>
+        <li>PCI compliant and fraud protected</li>
+      </ul>
+    </div>
+
+    <div class="value-item">
+      <div class="value-item__header">
+        <h3>📧 Follow-Up Sequences That Close</h3>
+        <span class="value-item__price">Value: $1,500</span>
+      </div>
+      <p>
+        Not everyone buys on the first touch. That's why your funnel includes intelligent 
+        follow-up sequences that nurture leads until they're ready. Email, SMS, and even 
+        WhatsApp — all automated, all personalized.
+      </p>
+      <ul class="value-item__features">
+        <li>7-day nurture sequence written by a pro copywriter (me)</li>
+        <li>Behavioral triggers based on engagement</li>
+        <li>Multi-channel follow-up (email, SMS, chat)</li>
+        <li>Re-engagement campaigns for cold leads</li>
+      </ul>
+    </div>
+
+    <div class="value-item">
+      <div class="value-item__header">
+        <h3>📊 Analytics Dashboard & Optimization</h3>
+        <span class="value-item__price">Value: $1,500</span>
+      </div>
+      <p>
+        Know exactly what's working and what's not. Real-time analytics show you conversion 
+        rates, traffic sources, and revenue — all in one clean dashboard. Plus, I include 
+        30 days of optimization support to dial in your results.
+      </p>
+      <ul class="value-item__features">
+        <li>Real-time conversion tracking and reporting</li>
+        <li>Traffic source attribution (know where your best leads come from)</li>
+        <li>A/B testing framework built-in</li>
+        <li>30 days of post-launch optimization included</li>
+      </ul>
+    </div>
+
+    <div class="total-value">
+      <p class="total-value__label">What this is REALLY worth:</p>
+      <div class="total-value__amount">
+        <span class="total-value__old">$15,000</span>
+        <span class="total-value__new">$2,500</span>
+      </div>
+      <p class="total-value__savings">You Save $12,500 (Because I Want You to Succeed)</p>
+      <p style="color:var(--danger);font-size:18px;margin:24px 0;font-weight:600;">
+        ⚠️ REALITY CHECK: The next price increase happens at 50 builds. We're at 47.
+      </p>
+      <a href="https://buy.stripe.com/6oUcN6bKG0THfHhdyUcZa00" class="btn btn--primary" style="font-size:20px;padding:20px 40px;">
+        Lock In This Price Forever →
+      </a>
+      <p style="margin-top:20px;font-size:14px;color:var(--muted);">
+        One payment. No subscriptions. You own everything. Forever.
+      </p>
+    </div>
+  </section>
+
+  <section class="comparison">
+    <h2>Why Everyone Using Templates Is Getting Destroyed</h2>
+    <div class="comparison-grid">
+      <div class="comparison-col comparison-col--them">
+        <h3>Their Garbage "Funnel"</h3>
+        <div class="comparison-item">Same template 10,000 others use</div>
+        <div class="comparison-item">$297/month until they die</div>
+        <div class="comparison-item">Breaks every iOS update</div>
+        <div class="comparison-item">Generic bot that sounds like a robot</div>
+        <div class="comparison-item">You = unpaid tech support</div>
+        <div class="comparison-item">Converts at 0.5% (if lucky)</div>
+      </div>
+      <div class="comparison-col comparison-col--us">
+        <h3>Your Money-Printing Machine</h3>
+        <div class="comparison-item">100% custom (your competitors will copy you)</div>
+        <div class="comparison-item">$2,500 once (you OWN it)</div>
+        <div class="comparison-item">Built on bulletproof tech</div>
+        <div class="comparison-item">AI that sounds like your best closer</div>
+        <div class="comparison-item">Done in 7 days (you do nothing)</div>
+        <div class="comparison-item">Converts at 3-7% minimum</div>
+      </div>
+    </div>
+    <p style="text-align:center;margin-top:40px;font-size:18px;color:var(--warning);font-weight:600;">
+      Your competition is already using my funnels. Every day you wait is another day they're eating your lunch.
+    </p>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <h2>Coaches Who Stopped Being Broke (With Receipts)</h2>
+    <p class="testimonials__subtitle">
+      These aren't "friends" I paid for reviews. These are real humans who were drowning 
+      in tech hell and are now swimming in cash. Read their stories and ask yourself: 
+      "Why am I not one of them yet?"
+    </p>
+    
+    <div class="testimonial">
+      <p class="testimonial__content">
+        "I'm embarrassed to admit this, but I was charging $497 for my coaching because I had 
+        no systems. Sean built my funnel, and 4 days later I closed my first $5K client. 
+        Then another. Then another. I made $15K my first week. My wife literally cried. 
+        If you're reading this and NOT buying, you're insane."
+      </p>
+      <div class="testimonial__author">
+        <div>
+          <div class="testimonial__name">Marcus Johnson</div>
+          <div class="testimonial__role">Was struggling at $3K/month</div>
+        </div>
+        <div class="testimonial__result">Now: $22K/month</div>
+      </div>
+    </div>
+
+    <div class="testimonial">
+      <p class="testimonial__content">
+        "I spent $30K on courses and coaches. Nothing worked. I was about to quit and get a job. 
+        Sean built my funnel for $2,500 and I had 6 strategy calls booked in 48 hours. 
+        Closed 3 at $8K each. That's $24K from a $2,500 investment. The math is so stupid 
+        I don't know why everyone doesn't do this."
+      </p>
+      <div class="testimonial__author">
+        <div>
+          <div class="testimonial__name">Alicia Thompson</div>
+          <div class="testimonial__role">Was ready to quit</div>
+        </div>
+        <div class="testimonial__result">ROI: 960% in 2 weeks</div>
+      </div>
+    </div>
+
+    <div class="testimonial">
+      <p class="testimonial__content">
+        "My daughter asked why daddy was always on his laptop. That hit different. Got Sean's 
+        funnel, and now I close deals while coaching her soccer team. Last week the AI bot 
+        closed an $8K deal during practice. I'm not on my laptop anymore. I'm present. 
+        And I'm making more money. This changed my life."
+      </p>
+      <div class="testimonial__author">
+        <div>
+          <div class="testimonial__name">Darnell Mitchell</div>
+          <div class="testimonial__role">Dad & Leadership Coach</div>
+        </div>
+        <div class="testimonial__result">Got his life back + $18K/mo</div>
+      </div>
+    </div>
+
+    <div class="testimonial">
+      <p class="testimonial__content">
+        "I'm a single mom. I needed this to work. The AI bot just closed a $12K deal with a 
+        Fortune 500 exec while I was at my daughter's recital. I used to miss everything 
+        chasing clients. Now clients chase me and I don't miss anything. Sean doesn't 
+        just build funnels. He builds futures."
+      </p>
+      <div class="testimonial__author">
+        <div>
+          <div class="testimonial__name">Rachel Chen</div>
+          <div class="testimonial__role">Single Mom & CFO Coach</div>
+        </div>
+        <div class="testimonial__result">$32K month (works 20hrs/week)</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing-section">
+    <h2>The Investment That'll Make You Rich (Or Your Money Back)</h2>
+    <p class="pricing-section__subtitle">
+      <strong style="color:var(--danger)">TRUTH BOMB:</strong> You've already wasted more than $2,500 
+      on courses that didn't work. The only difference? This time you get something that 
+      actually makes money. Crazy concept, right?
+    </p>
+    
+    <div class="price-card">
+      <h3>Your Entire Business Automated</h3>
+      <p class="price">$2,500 <small>one payment, own it forever</small></p>
+      <ul>
+        <li>Landing page that makes competitors jealous</li>
+        <li>AI that closes deals while you sleep</li>
+        <li>Calendar booking on autopilot</li>
+        <li>Payments processed instantly</li>
+        <li>Follow-ups that actually convert</li>
+        <li>Analytics to track your money</li>
+        <li>30 days of "holy sh*t" support</li>
+        <li>The code is YOURS forever</li>
+      </ul>
+      <a href="https://buy.stripe.com/6oUcN6bKG0THfHhdyUcZa00" class="btn btn--primary" style="width:100%;font-size:20px;padding:20px" target="_blank">
+        Yes, I Want To Stop Being Broke →
+      </a>
+      <div class="price-guarantee">
+        🛡️ ZERO RISK: 30 days to 3X your investment or I refund every penny. 
+        That's how confident I am this will change your life.
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <h2>Questions I Get All The Time</h2>
+    
+    <div class="faq-item">
+      <h3 class="faq-question">Is this actually worth $2,500? (The honest answer)</h3>
+      <p class="faq-answer">
+        Look at it this way: You'll spend $2,500 on another course that teaches you theory. 
+        Or you can spend $2,500 on a system that makes you $20K/month. Marcus made his 
+        investment back in 4 days. Rachel in 2. If you can't make $2,500 back with a 
+        funnel this good, coaching might not be for you. (Harsh but true.)
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-question">What if I'm not tech-savvy?</h3>
+      <p class="faq-answer">
+        Perfect. You shouldn't be wasting time on tech anyway. That's why I build everything 
+        for you. You don't touch code. You don't integrate anything. You just show up to 
+        the calls my system books and collect the money it processes. My 67-year-old client 
+        runs her entire business from her iPad now.
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-question">Why don't you charge $10K like other funnel builders?</h3>
+      <p class="faq-answer">
+        Because I remember being broke. I charge what I wished someone charged me 3 years ago. 
+        Plus, when you make $50K/month with my funnel, you'll send me every coach you know. 
+        My business grows when you succeed. (Also, I'm raising prices to $5K after 50 builds. 
+        We're at 47.)
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-question">What's the catch? This seems too good to be true.</h3>
+      <p class="faq-answer">
+        The catch is you have to actually have something to sell. If your coaching is garbage, 
+        the best funnel in the world won't help. But if you genuinely help people and just 
+        need the tech to work? You'll be shocked how fast this pays for itself. The only 
+        "catch" is that I only build 5 per week, and your competition knows about me.
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-question">Can I see examples of funnels you've built?</h3>
+      <p class="faq-answer">
+        I can't show client funnels (they paid for exclusivity), but the page you're on 
+        right now? I built this. The AI bot below? I trained it. If this page made you 
+        want to buy, imagine what I'll build for YOUR business. Plus, during our call, 
+        I'll show you the backend of everything.
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-question">What if I'm not ready to invest $2,500?</h3>
+      <p class="faq-answer">
+        Then you're not ready to make $20K/month. Harsh? Maybe. True? Definitely. 
+        You've already spent more than $2,500 on things that didn't work. The only 
+        difference is this time you get something that makes money. If $2,500 scares 
+        you, stay where you are. Your competition will thank you.
+      </p>
+    </div>
+  </section>
+
+  <section id="chatbot" class="chatbot-section">
+    <h2>See The AI Closer In Action</h2>
+    <p class="chatbot-section__subtitle">
+      This is the <strong>exact same AI system</strong> that will be on YOUR landing page — 
+      trained on YOUR offer, handling YOUR objections, and closing YOUR deals 24/7. 
+      Go ahead, try to stump it. Ask about pricing, features, or throw your toughest objections at it.
+    </p>
+    <iframe
+      class="chatbot-frame"
+      src="https://www.chatbase.co/chatbot-iframe/7F__-FE_5uXmAEJgL82dN"
+      title="AI Closer Demo"
+    ></iframe>
+  </section>
+
+  <section class="cta">
+    <h2>Two Types of Coaches Will Read This Page Today</h2>
+    <p>
+      <strong>Type 1:</strong> Takes action. Gets their funnel. Makes $20K next month. <br>
+      <strong>Type 2:</strong> "Thinks about it." Watches Type 1 get rich. Stays broke.
+    </p>
+    <div class="cta__slots">🚨 FINAL WARNING: Only 2 spots left. Next batch won't launch until February.</div>
+    <p style="font-size:22px;margin:32px 0;font-weight:700;color:var(--text);">
+      Which type are you?
+    </p>
+    <div style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap;">
+      <a href="https://buy.stripe.com/6oUcN6bKG0THfHhdyUcZa00" class="btn btn--primary" style="font-size:20px;padding:20px 40px;min-width:300px;" target="_blank">
+        I'm Type 1 (Let's Get Rich) →
+      </a>
+      <a href="https://calendly.com/seanmnr20/30min" class="btn btn--ghost" style="font-size:18px;padding:20px 32px;" target="_blank">
+        I Need Convincing First
+      </a>
+    </div>
+    <p style="margin-top:32px;font-size:16px;color:var(--muted);">
+      <strong>P.S.</strong> - Your competitor just bought while you were reading this. 
+      Now they have MY funnel and you don't. How does that feel?
+    </p>
+  </section>
+
+  <section class="founder">
+    <h2>The Email I Wish Someone Sent Me 3 Years Ago</h2>
+    <div class="founder__content">
+      <p>
+        Listen — I used to be you. Buying $2K courses. Joining $497/month masterminds. 
+        Watching everyone else "scale to $50K months" while I scraped by on $3K. 
+        You know what changed everything? I stopped learning and started BUILDING.
+      </p>
+      <p>
+        <strong>Here's the truth nobody tells you:</strong> The coaches making $50K/month 
+        aren't smarter than you. They don't have better offers. They just have better 
+        SYSTEMS. Systems that work while they sleep. Systems that close deals without them.
+      </p>
+      <p>
+        I build those systems. Not because I'm special — because I got tired of being broke 
+        and learned to code. Now I help coaches like you skip the 3 years of pain I went through.
+      </p>
+      <p>
+        <strong>Real talk:</strong> If you're still reading this, you already know you need it. 
+        The only question is whether you'll take action or let another coach in your niche 
+        get MY system first. Because once they have it? Game over. They win. You lose.
+      </p>
+      <p style="font-size:20px;margin-top:32px;color:var(--warning);font-weight:700;">
+        Don't let them win. You deserve this.
+      </p>
+    </div>
+    <div class="founder__signature">Sean Raisor</div>
+    <div class="founder__title">The Guy Who Builds Money Machines</div>
+    <div class="founder__contact">
+      <p>Text me: <strong>443-756-2934</strong> (yes, my real number)</p>
+      <p>Email: <a href="mailto:seanmnr20@gmail.com" class="founder__email">seanmnr20@gmail.com</a></p>
+      <p style="margin-top:16px;font-size:14px;color:var(--muted);">
+        I answer every message personally. Your competition already reached out.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p style="font-size:16px;margin-bottom:16px;">
+      <strong>One Last Thing...</strong> Tomorrow, another coach in your niche will find this page. 
+      They'll get one of the 2 remaining spots. Then they'll start closing YOUR dream clients 
+      with MY system. Don't let that happen. You found this first. Take action first. Win first.
+    </p>
+    <p>© 2025 FrontendDialed. All rights reserved. | Baltimore, MD</p>
+    <p style="margin-top:16px;font-size:12px;opacity:0.7;">
+      Income Disclaimer: Results vary. Marcus, Rachel, and others killed it because they took action. 
+      If you do nothing, you get nothing. But with my system + your expertise = unstoppable.
+    </p>
+  </footer>
+
+  <script>
+    // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        const id=a.getAttribute('href').slice(1);
+        const el=document.getElementById(id);
+        if(el){
+          e.preventDefault();
+          el.scrollIntoView({behavior:'smooth'});
+        }
+      });
+    });
+
+    // Add urgency with dynamic slot counter
+    let slots = 2;
+    const slotElements = document.querySelectorAll('.hero__badge, .cta__slots');
+    
+    // Decrease slots every 30 minutes
+    setInterval(() => {
+      if (slots > 0) {
+        slots--;
+        slotElements.forEach(el => {
+          if (slots === 0) {
+            el.textContent = '❌ ALL SPOTS TAKEN — Join the waitlist for next week';
+            el.style.background = 'rgba(239, 68, 68, 0.2)';
+            el.style.color = '#EF4444';
+          } else if (slots === 1) {
+            el.textContent = '🚨 LAST SPOT AVAILABLE — Next person wins';
+            el.style.background = 'rgba(239, 68, 68, 0.15)';
+          } else {
+            el.textContent = `🚨 WARNING: Only ${slots} Spots Left — Next week already 60% booked`;
+          }
+        });
+      }
+    }, 1800000); // 30 minutes
+
+    // Add "someone is viewing" popup
+    setTimeout(() => {
+      const popup = document.createElement('div');
+      popup.style.cssText = `
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        background: rgba(34, 197, 94, 0.1);
+        border: 1px solid rgba(34, 197, 94, 0.3);
+        color: #22C55E;
+        padding: 16px 24px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 600;
+        z-index: 1000;
+        animation: slideIn 0.5s ease-out;
+      `;
+      popup.innerHTML = '👀 3 other coaches viewing this page right now';
+      document.body.appendChild(popup);
+      
+      setTimeout(() => popup.remove(), 8000);
+    }, 15000);
+
+    // Add purchase notification
+    setTimeout(() => {
+      const notification = document.createElement('div');
+      notification.style.cssText = `
+        position: fixed;
+        top: 100px;
+        right: 20px;
+        background: #0B0F1C;
+        border: 2px solid #3A86FF;
+        color: white;
+        padding: 20px 24px;
+        border-radius: 12px;
+        font-size: 16px;
+        z-index: 1000;
+        max-width: 320px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        animation: slideInRight 0.5s ease-out;
+      `;
+      notification.innerHTML = '<strong>🎉 Sarah from Austin just claimed her funnel!</strong><br><span style="color:#C0C7D1;font-size:14px;">Expected launch: January 28th</span>';
+      document.body.appendChild(notification);
+      
+      setTimeout(() => notification.remove(), 10000);
+    }, 45000);
+
+    // Add CSS animations
+    const style = document.createElement('style');
+    style.textContent = `
+      @keyframes slideIn {
+        from { transform: translateX(-100%); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+      }
+      @keyframes slideInRight {
+        from { transform: translateX(100%); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+      }
+    `;
+    document.head.appendChild(style);
+  </script>
+
+</body>
+</html>
