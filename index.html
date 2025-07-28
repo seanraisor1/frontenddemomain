@@ -1,6 +1,6 @@
-<section id="faq" class="faq" style="background: #0A0E1B; padding: 100px 20px; margin: 0;">
+<section id="faq" class="faq" style="background: rgba(10, 14, 27, 0.9); backdrop-filter: blur(20px); padding: 100px 20px; margin: 0;">
     <h2 style="font-size: 56px; margin-bottom: 60px;">The Questions Everyone Asks<br>
-      <span style="font-size: 24px; color: var(--muted); font-weight: 400;">
+      <span style="font-size: 24px; color: var(--muted); font-weight: 400; display: block; margin-top: 8px;">
         (And The Answers That Close Deals)
       </span>
     </h2>
@@ -82,7 +82,7 @@
 
   <section id="chatbot" class="chatbot-section" style="padding: 100px 20px;">
     <h2 style="font-size: 56px; margin-bottom: 24px;">Meet Your New 24/7 Sales Rep<br>
-      <span style="font-size: 24px; color: var(--muted); font-weight: 400;">
+      <span style="font-size: 24px; color: var(--muted); font-weight: 400; display: block; margin-top: 8px;">
         (It Never Sleeps, Never Quits, Never Asks for Commission)
       </span>
     </h2>
@@ -216,7 +216,7 @@
     </div>
   </section>
 
-  <section style="background: #0A0E1B; padding: 80px 20px; text-align: center;">
+  <section style="background: rgba(10, 14, 27, 0.95); backdrop-filter: blur(20px); padding: 80px 20px; text-align: center;">
     <h2 style="font-size: 48px; margin-bottom: 48px;">One Last Thing...</h2>
     <div style="max-width: 800px; margin: 0 auto;">
       <p style="font-size: 24px; font-weight: 700; margin-bottom: 24px; color: var(--accent);">
@@ -241,7 +241,7 @@
     </div>
   </section>
 
-  <footer style="background: #080B15; border-top: 1px solid rgba(255,255,255,0.05);">
+  <footer style="background: rgba(8, 11, 21, 0.95); border-top: 1px solid rgba(255,255,255,0.05);">
     <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 48px; padding: 60px 20px;">
       <div>
         <h3 style="font-size: 20px; margin-bottom: 24px;">FrontendDialed</h3>
@@ -384,9 +384,28 @@
     body {
       font-family:'Inter',sans-serif;
       color:var(--text);
-      background:linear-gradient(180deg,var(--bg-start),var(--bg-end));
+      background: #0B0F1C;
       overflow-x:hidden;
       line-height: 1.6;
+      position: relative;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle at 20% 50%, rgba(58, 134, 255, 0.3) 0%, transparent 50%),
+                  radial-gradient(circle at 80% 80%, rgba(94, 158, 255, 0.2) 0%, transparent 50%),
+                  radial-gradient(circle at 40% 20%, rgba(58, 134, 255, 0.15) 0%, transparent 50%);
+      z-index: -1;
+      animation: float 20s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: translate(0, 0) rotate(0deg); }
+      33% { transform: translate(-50px, -50px) rotate(120deg); }
+      66% { transform: translate(50px, -30px) rotate(240deg); }
     }
     a { text-decoration:none; color:inherit; }
 
@@ -1249,7 +1268,7 @@
 
   <section class="solution-section" style="margin: 0; padding: 100px 20px;">
     <h2 style="font-size: 56px;">Here's Exactly What I Build<br>
-      <span style="font-size: 24px; color: var(--muted); font-weight: 400;">
+      <span style="font-size: 24px; color: var(--muted); font-weight: 400; display: block; margin-top: 8px;">
         (And Why It Prints Money)
       </span>
     </h2>
@@ -1314,7 +1333,7 @@
     </div>
   </section>
 
-  <section id="calculator" style="background: #0A0E1B; padding: 80px 20px; margin: 0;">
+  <section id="calculator" style="background: rgba(10, 14, 27, 0.8); backdrop-filter: blur(20px); padding: 80px 20px; margin: 0;">
     <div style="max-width: 800px; margin: 0 auto; text-align: center;">
       <h2 style="font-size: 48px; margin-bottom: 48px;">Your 30-Day ROI Calculator</h2>
       
@@ -1348,7 +1367,7 @@
 
   <section id="value-stack" class="value-stack" style="padding: 100px 20px;">
     <h2 style="font-size: 56px;">The $15,000 Stack You Get for $2,500<br>
-      <span style="font-size: 24px; color: var(--muted); font-weight: 400;">
+      <span style="font-size: 24px; color: var(--muted); font-weight: 400; display: block; margin-top: 8px;">
         (Because I'd Rather Have 100 Success Stories Than 10 Big Checks)
       </span>
     </h2>
@@ -1450,9 +1469,9 @@
     </div>
   </section>
 
-  <section class="comparison" style="background: #0A0E1B; padding: 100px 20px; margin: 0;">
+  <section class="comparison" style="background: rgba(10, 14, 27, 0.9); backdrop-filter: blur(20px); padding: 100px 20px; margin: 0;">
     <h2 style="font-size: 56px; margin-bottom: 60px;">Why I'm Eating Everyone's Lunch<br>
-      <span style="font-size: 24px; color: var(--muted); font-weight: 400;">
+      <span style="font-size: 24px; color: var(--muted); font-weight: 400; display: block; margin-top: 8px;">
         (And Why You Should Let Me Eat Your Competitors' Too)
       </span>
     </h2>
@@ -1505,7 +1524,7 @@
 
   <section id="testimonials" class="testimonials" style="padding: 100px 20px;">
     <h2 style="font-size: 56px; margin-bottom: 16px;">Don't Take My Word For It<br>
-      <span style="font-size: 24px; color: var(--muted); font-weight: 400;">
+      <span style="font-size: 24px; color: var(--muted); font-weight: 400; display: block; margin-top: 8px;">
         Take Theirs (And Their Bank Statements)
       </span>
     </h2>
@@ -1581,7 +1600,7 @@
 
   <section id="pricing" class="pricing-section" style="background: linear-gradient(135deg, #0A0E1B, #0F1322); padding: 100px 20px;">
     <h2 style="font-size: 56px; margin-bottom: 24px;">One Price. Everything Included.<br>
-      <span style="font-size: 24px; color: var(--muted); font-weight: 400;">
+      <span style="font-size: 24px; color: var(--muted); font-weight: 400; display: block; margin-top: 8px;">
         No Upsells. No BS. No "Premium" Features.
       </span>
     </h2>
